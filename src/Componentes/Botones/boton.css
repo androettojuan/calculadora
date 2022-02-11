@@ -1,0 +1,28 @@
+.content .relleno .boton {
+    width: 60px;
+    height: 60px;
+    margin: 2px 2px 2px 2px;
+    font-size: 20px;
+
+}
+
+.content .relleno .boton.grande {
+    width: 124px;
+    height: 60px;
+    margin: 2px 2px 2px 2px;
+    font-size: 20px;
+
+}
+.content .relleno {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+}
+
+.content{
+    background-color: rgb(218, 218, 218);
+    border: 3px solid black;
+    margin-top: -3px;
+}
