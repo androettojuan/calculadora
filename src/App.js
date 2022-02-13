@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Botones from "./Componentes/Botones/boton";
+import Cabecera from "./Componentes/cabecera/cabecera";
 import Pantalla from "./Componentes/Pantalla/pantalla";
 
 const round = (numero,decimales) => Math.round((numero + Number.EPSILON) * Math.pow(10,decimales)) / Math.pow(10,decimales)
@@ -59,6 +60,7 @@ function App() {
 
   return (
     <div className="calculadora">
+      <Cabecera></Cabecera>
       <Pantalla numeroUno={num1} numeroDos={num2} operacion={operacion}></Pantalla>
       <Botones onClickBorrar={onClickBorrar} onClickIgual={onClickIgual} onClickNumero={onClickNumero} onClickOperacion={onClickOperacion} numUno={num1} numDos={num2} ></Botones>
     </div>
